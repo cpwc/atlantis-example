@@ -2,7 +2,7 @@ module "eg_prod_bastion_label" {
   source   = "cloudposse/label/null"
 
   namespace  = "eg"
-  stage      = "prod"
+  stage      = "dev"
   name       = "bastion"
   attributes = ["public"]
   delimiter  = "-"
