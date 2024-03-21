@@ -4,7 +4,7 @@ module "eg_prod_bastion_label" {
   namespace  = "eg"
   stage      = "dev"
   name       = "bastion"
-  attributes = ["public"]
+  attributes = ["public", "test"]
   delimiter  = "-"
 
   tags = {
